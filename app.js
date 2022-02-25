@@ -5,7 +5,7 @@ const nodemailer=require('nodemailer');
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-
+dot.env.config();
 app.set('view engine','ejs');
 app.set('views','./src/views');
 app.get('/',function(req,res){
