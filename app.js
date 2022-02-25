@@ -34,7 +34,7 @@ const accessToken = oauth2Client.getAccessToken()
     });
 
 app.set('view engine','ejs');
-app.set('views','./src/views');
+app.set('views','views');
 app.get('/',function(req,res){
     res.send("Welcome to Coding Competition #2 by ASIA ZURUR.K ,  FSD KKEM OCT")
   
