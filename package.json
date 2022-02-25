@@ -8,6 +8,8 @@
   "start": "node index.js",
     "worker":"node index.js"
   },
+   "engines": {"node": "16.13.1",
+  "npm":"8.1.2"},
 
   "author": "asia",
   "license": "ISC",
