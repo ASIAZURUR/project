@@ -7,8 +7,8 @@
      "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-   "engines": {"node": "16.13.1",
-  "npm":"8.1.2"},
+   "engines": {"node": "16.13.1"
+ },
 
   "author": "asia",
   "license": "ISC",
