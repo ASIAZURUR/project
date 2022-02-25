@@ -3,12 +3,13 @@ const app=express();
 let port=process.env.PORT || 5004;
 const nodemailer=require('nodemailer');
 const bodyParser = require('body-parser');
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-const dotenv=require('dotenv');
-dotenv.config();
 const { google } = require("googleapis");
 const req = require('express/lib/request');
+const dotenv=require('dotenv');
+dotenv.config();
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
 const OAuth2 = google.auth.OAuth2;
 const oauth2Client = new OAuth2(
   process.env.OAUTH_CLIENTID  , // ClientID
