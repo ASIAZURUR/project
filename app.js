@@ -32,7 +32,7 @@ const accessToken = oauth2Client.getAccessToken()
         accessToken:accessToken
       }
     });
-app.use(express.static('./public'));
+
 app.set('view engine','ejs');
 app.set('views','./src/views');
 app.get('/',function(req,res){
