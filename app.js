@@ -21,7 +21,7 @@ const oauth2Client = new OAuth2(
   "https://developers.google.com/oauthplayground" // Redirect URL
 );
 oauth2Client.setCredentials({
-  refresh_token:OAUTH_REFRESH_TOKEN 
+  refresh_token:OAUTH_REFRESH_TOKEN ;
 });
 const accessToken = oauth2Client.getAccessToken()
     let transporter = nodemailer.createTransport({
