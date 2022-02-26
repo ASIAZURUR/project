@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 app.set('view engine','ejs');
 app.set('views','./src/views');
 app.get('/',function(req,res){
-    res.send("Welcome to Coding Competition #2 by ASIA ZURUR.K ,  FSD KKEM OCT")
+   res.render('home');
   
 });
 dotenv.config();
