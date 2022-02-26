@@ -57,4 +57,5 @@ transporter.sendMail(mailOptions, function(err, data) {
     console.log("Email sent successfully");
     res.send("Email sent successfully")
   }})
+})
 app.listen(process.env.PORT ||5000);
