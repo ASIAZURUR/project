@@ -22,7 +22,7 @@ process.env.OAUTH_CLIENT_SECRET , // Client Secret
   "https://developers.google.com/oauthplayground" // Redirect URL
 );
 oauth2Client.setCredentials({
-  refresh_token:process.env.OAUTH_REFRESH_TOKEN ;
+  refresh_token:process.env.OAUTH_REFRESH_TOKEN 
 });
 const accessToken = oauth2Client.getAccessToken()
     let transporter = nodemailer.createTransport({
