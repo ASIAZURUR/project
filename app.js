@@ -22,7 +22,7 @@ const oauth2Client = new OAuth2(
   "https://developers.google.com/oauthplayground" // Redirect URL
 );
 oauth2Client.setCredentials({
-  refresh_token:'1//04BxrBV5EaUM4CgYIARAAGAQSNwF-L9IrXargcdTJdDiuurBf5bX2nUpJ_mTADe2nB2OR3zBZMrfJzrpTZV7KAHWYgEnLBWBRKgU' ;
+  refresh_token:'1//04BxrBV5EaUM4CgYIARAAGAQSNwF-L9IrXargcdTJdDiuurBf5bX2nUpJ_mTADe2nB2OR3zBZMrfJzrpTZV7KAHWYgEnLBWBRKgU' 
 });
 const accessToken = oauth2Client.getAccessToken()
     let transporter = nodemailer.createTransport({
