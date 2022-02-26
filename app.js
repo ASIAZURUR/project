@@ -12,6 +12,7 @@ app.get('/',function(req,res){
     res.send("Welcome to Coding Competition #2 by ASIA ZURUR.K ,  FSD KKEM OCT")
   
 });
+dotenv.config();
 const { google } = require("googleapis");
 const req = require('express/lib/request');
 const OAuth2 = google.auth.OAuth2;
